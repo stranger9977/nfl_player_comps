@@ -91,3 +91,4 @@ df = df.loc[:, ~df.columns.str.contains('designation')]
 
 print(df.info(verbose=True))
 df.to_csv('/Users/nick/sleepertoolsversion2/combine_data/apicombine.csv',index=False)
+

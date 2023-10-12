@@ -90,7 +90,6 @@ def create_instagram_ready_horizontal_bar_chart(output_df, features):
 
     ax.set_xlabel('Percentile Score')
 
-    # ...
     ax.set_xlabel('Percentile Score')
     ax.set_title('Player Comparison')
     ax.set_yticks(y)
