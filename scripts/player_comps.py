@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 def load_data():
-    df = pd.read_csv('https://raw.githubusercontent.com/stranger9977/nfl_player_comps/d51f94445a5c794fa9d0e8fbf88e18bb2eade702/data/raw/apicombine.csv')
-    df_projection = pd.read_csv('https://raw.githubusercontent.com/stranger9977/nfl_player_comps/blob/d51f94445a5c794fa9d0e8fbf88e18bb2eade702/data/processed/projection.csv')
+    df = pd.read_csv('https://raw.githubusercontent.com/stranger9977/nfl_player_comps/master/data/raw/apicombine.csv?token=GHSAT0AAAAAACHYHKHENDBUBGBKBV34CBBKZJINMKA')
+    df_projection = pd.read_csv('https://raw.githubusercontent.com/stranger9977/nfl_player_comps/master/data/processed/projection.csv?token=GHSAT0AAAAAACHYHKHFBOEHRATDMZHCJRW6ZJINNZQ')
     df_projection = df_projection[['merge_name','Season_1_PPG','projected_season_1_PPG']]
     df = df.merge(df_projection, on='merge_name', how='left')
     df = df[(df['year'] >= 2012) & (df['year'] <= 2024)]
