@@ -1,4 +1,4 @@
-#Player Comps Tool Powered by Next Gen Stats
+# Player Comps Tool Powered by Next Gen Stats
 
 
 Streamlit dashboard that allows users to choose players dating back to 2006. From there, a KNN model compares rookies to other players in the NFL. Features include NFL NextGenStats and combine metrics. Data from the NFL API and nflfastR database. 
