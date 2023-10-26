@@ -5,7 +5,7 @@ Streamlit dashboard that allows users to choose players dating back to 2006. Fro
 
 ## How It's Made:
 
-**Tech used:** Python (Streamlit, SciKit-Learn, NumPy, pandas)
+**Tech used:** Python (Streamlit, Sci-Kit Learn, NumPy, pandas)
 
 The app extracts data from nflfastR and the Nfl API. The data is cleaned and merged creating a dataset with every player entering the rookie draft since 2006. From there, the data set was used to train a KNN model using a variety of features including, NGS scores for college production, athleticism, and size. The model comparisons are displayed in a simple bar chart format displaying the Next Gen Stat Scores displayed during the draft. 
 
