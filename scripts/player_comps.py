@@ -440,7 +440,6 @@ def knn_neighbors(df, player_name, n, pos, draft_number=None):
 
     output_df = pd.concat([player_df, neighbors_df]).sort_values(by='similarity_score', ascending=False).reset_index(drop=True)
     output_df = output_df.merge(ranks_df, right_index=True, left_on='person_display_name', how='left')
-    output_df
     return output_df, features
 def main():
     st.title("Combine Data Player Comps")
@@ -592,7 +591,6 @@ def main():
     create_player_card(player_data,comp_data)
 
 
-    output_df
     create_horizontal_bar_chart(output_df)
 
 
