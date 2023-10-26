@@ -282,7 +282,7 @@ def gradient_color_map(color):
 
 def create_horizontal_bar_chart(output_df):
     # Load the Roboto font
-    prop = fm.FontProperties(fname='assets/Roboto/Roboto-Medium.ttf')
+    prop = fm.FontProperties(fname='scripts/assets/Roboto/Roboto-Medium.ttf')
 
     labels = ['Size', 'Production', 'Athleticism', 'Overall']
     output_df['size_score'] = output_df['size_score'] * 100
