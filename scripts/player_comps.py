@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 def load_data():
-    df = pd.read_csv('https://github.com/stranger9977/Sleeper-API-Tools/blob/decb1b2127ce03624fcf223d2a73f7d977ed5410/combine_data/apicombine.csv')
-    df_projection = pd.read_csv('/Users/nick/nfl_player_comps/data/processed/projection.csv')
+    df = pd.read_csv('https://raw.githubusercontent.com/stranger9977/nfl_player_comps/master/data/raw/apicombine.csv?token=GHSAT0AAAAAACHYHKHENDBUBGBKBV34CBBKZJINMKA')
+    df_projection = pd.read_csv('https://raw.githubusercontent.com/stranger9977/nfl_player_comps/master/data/processed/projection.csv?token=GHSAT0AAAAAACHYHKHFBOEHRATDMZHCJRW6ZJINNZQ')
     df_projection = df_projection[['merge_name','Season_1_PPG','projected_season_1_PPG']]
     df = df.merge(df_projection, on='merge_name', how='left')
     df = df[(df['year'] >= 2012) & (df['year'] <= 2024)]
@@ -98,7 +98,6 @@ def create_instagram_ready_horizontal_bar_chart(output_df, features):
 
     plt.tight_layout()
     st.pyplot(plt.gcf())
-
 
 
 
@@ -207,6 +206,12 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
+
+
 
 
 
