@@ -4,3 +4,4 @@ scikit-learn==0.24.2
 matplotlib==3.4.3
 streamlit~=1.21.0
 requests~=2.29.0
+nfl_data_py
