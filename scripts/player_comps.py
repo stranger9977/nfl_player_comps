@@ -232,8 +232,8 @@ def create_player_card(player_data, comp_data):
 
 
 def load_data():
-    df = pd.read_csv('https://raw.githubusercontent.com/stranger9977/nfl_player_comps/master/data/raw/apicombine.csv?token=GHSAT0AAAAAACHYHKHENDBUBGBKBV34CBBKZJINMKA')
-    df_projection = pd.read_csv('https://raw.githubusercontent.com/stranger9977/nfl_player_comps/master/data/processed/projection.csv?token=GHSAT0AAAAAACHYHKHFBOEHRATDMZHCJRW6ZJINNZQ')
+    df = pd.read_csv('https://raw.githubusercontent.com/stranger9977/nfl_player_comps/master/data/raw/apicombine.csv')
+    df_projection = pd.read_csv('https://raw.githubusercontent.com/stranger9977/nfl_player_comps/master/data/processed/projection.csv')
     print(df_projection.columns)
 
     df_projection = df_projection[['merge_name','Season_1_PPG','projected_season_1_PPG','team','team_logo_espn','draft_number']]
