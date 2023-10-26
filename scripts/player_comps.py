@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 def load_data():
-    df = pd.read_csv('/Users/nick/nfl_player_comps/data/raw/apicombine.csv')
+    df = pd.read_csv('https://github.com/stranger9977/Sleeper-API-Tools/blob/decb1b2127ce03624fcf223d2a73f7d977ed5410/combine_data/apicombine.csv')
     df_projection = pd.read_csv('/Users/nick/nfl_player_comps/data/processed/projection.csv')
     df_projection = df_projection[['merge_name','Season_1_PPG','projected_season_1_PPG']]
     df = df.merge(df_projection, on='merge_name', how='left')
