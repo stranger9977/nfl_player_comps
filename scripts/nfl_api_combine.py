@@ -4,7 +4,6 @@ import requests
 import pandas as pd
 
 # send a POST request to get access token
-import seaborn as sns
 import unidecode
 from matplotlib import pyplot as plt
 
@@ -90,5 +89,5 @@ df = df.loc[:, ~df.columns.str.contains('designation')]
 # Select the columns of interest
 
 print(df.info(verbose=True))
-df.to_csv('/Users/nick/sleepertoolsversion2/combine_data/apicombine.csv',index=False)
+df.to_csv('/Users/nick/nfl_player_comps/data/raw/apicombine.csv',index=False)
 
