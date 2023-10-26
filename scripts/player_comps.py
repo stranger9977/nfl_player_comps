@@ -590,7 +590,7 @@ def main():
     # Create the player card
     create_player_card(player_data,comp_data)
 
-
+    output_df
     create_horizontal_bar_chart(output_df)
 
 
