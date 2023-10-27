@@ -132,7 +132,7 @@ def create_player_card(player_data, comp_data):
         "DEN": ["Denver Broncos", "#FB4F14", "#002244"],
         "KC": ["Kansas City Chiefs", "#E31837", "#FFB81C"],
         "LV": ["Las Vegas Raiders", "#A5ACAF", "#000000"],
-        "LA": ["Los Angeles Chargers", "#0072C6", "#FFB81C", "#FFFFFF"],
+        "LAC": ["Los Angeles Chargers", "#0072C6", "#FFB81C", "#FFFFFF"],
         "CHI": ["Chicago Bears", "#0B162A", "#C83803"],
         "DET": ["Detroit Lions", "#0076B6", "#B0B7BC", "#000000", "#FFFFFF"],
         "GB": ["Green Bay Packers", "#FFB81C", "#203731"],
