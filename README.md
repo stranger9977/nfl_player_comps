@@ -34,7 +34,7 @@ Link to project: [Player Comps Tool Powered by Next Gen Stats](https://nflplayer
 - The model gauges similarities based on the 4 Next Gen Stat Scores, draft positions, and other features, presenting a comparable veteran player for each rookie.
 - Displays rookies and their comparable veterans in an intuitive dashboard with player cards and a grouped bar chart showcasing the Next Gen Stat Scores.
 
-![Bar Chart Example](data/raw/Screen Shot 2023-10-27 at 11.17.00 AM.png)
+![Bar Chart Example](https://github.com/stranger9977/nfl_player_comps/blob/master/data/raw/Screen%20Shot%202023-10-27%20at%2011.17.00%20AM.png)
 
 ### Rookie Year Projections:
 
