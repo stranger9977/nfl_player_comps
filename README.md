@@ -26,15 +26,15 @@ Link to project: [Player Comps Tool Powered by Next Gen Stats](https://nflplayer
 ### Model Training:
 
 - Trained a KNN model on Next Gen Stat Scores, leveraging the similarities in features to draw comparisons between rookies and veterans.
-- [Explanation of KNN model]([your-youtube-link-here](https://www.youtube.com/watch?v=HVXime0nQeI&ab_channel=StatQuestwithJoshStarmer))
-- [Explanation of Next Gen Stat Scores]([your-next-gen-stat-scores-link-here](https://www.youtube.com/watch?v=HVXime0nQeI&ab_channel=StatQuestwithJoshStarmer))
+- [Explanation of KNN model](https://www.youtube.com/watch?v=HVXime0nQeI&ab_channel=StatQuestwithJoshStarmer)
+- [Explanation of Next Gen Stat Scores](https://www.youtube.com/watch?v=HVXime0nQeI&ab_channel=StatQuestwithJoshStarmer)
 
 ### Project Functionality - ELI5 Version:
 
 - The model gauges similarities based on the 4 Next Gen Stat Scores, draft positions, and other features, presenting a comparable veteran player for each rookie.
 - Displays rookies and their comparable veterans in an intuitive dashboard with player cards and a grouped bar chart showcasing the Next Gen Stat Scores.
 
-![Bar Chart Example](your-bar-chart-link-here.png)
+![Bar Chart Example](data/raw/Screen Shot 2023-10-27 at 11.17.00 AM.png)
 
 ### Rookie Year Projections:
 
