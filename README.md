@@ -2,9 +2,10 @@
 
 This project allows users to draw comparisons between NFL rookies and veterans, leveraging a KNN model trained on NFL NextGenStats and combine metrics. The dashboard presents a fun, interactive way to engage with NFL draft selections, providing insight into how rookies might perform based on historical player data. Check out the live demo and explore how your favorite rookies compare!
 
-![Project Gif](data/raw/appclip.gif)
 
-Link to project: [Player Comps Tool Powered by Next Gen Stats]([http://recruiters-love-seeing-live-demos.com/](https://share.streamlit.io/))
+Link to project: [Player Comps Tool Powered by Next Gen Stats]([https://nflplayercomps.streamlit.app/])
+
+![Project Gif (Apologies for the GIF Quality)](data/raw/appclip.gif)
 
 ## How It's Made:
 
