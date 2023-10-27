@@ -1,10 +1,10 @@
-# Player Comps Tool Powered by Next Gen Stats
+# Machine Learning Player Comps Tool Powered by Next Gen Stats
 
 This project allows users to draw comparisons between NFL rookies and veterans, leveraging a KNN model trained on NFL NextGenStats and combine metrics. The dashboard presents a fun, interactive way to engage with NFL draft selections, providing insight into how rookies might perform based on historical player data. Check out the live demo and explore how your favorite rookies compare!
 
-![Project Gif](your-gif-link-here.gif)
+![Project Gif](data/raw/appclip.gif)
 
-Link to project: [Player Comps Tool Powered by Next Gen Stats](http://recruiters-love-seeing-live-demos.com/)
+Link to project: [Player Comps Tool Powered by Next Gen Stats]([http://recruiters-love-seeing-live-demos.com/](https://share.streamlit.io/))
 
 ## How It's Made:
 
@@ -25,8 +25,8 @@ Link to project: [Player Comps Tool Powered by Next Gen Stats](http://recruiters
 ### Model Training:
 
 - Trained a KNN model on Next Gen Stat Scores, leveraging the similarities in features to draw comparisons between rookies and veterans.
-- [Explanation of KNN model](your-youtube-link-here)
-- [Explanation of Next Gen Stat Scores](your-next-gen-stat-scores-link-here)
+- [Explanation of KNN model]([your-youtube-link-here](https://www.youtube.com/watch?v=HVXime0nQeI&ab_channel=StatQuestwithJoshStarmer))
+- [Explanation of Next Gen Stat Scores]([your-next-gen-stat-scores-link-here](https://www.youtube.com/watch?v=HVXime0nQeI&ab_channel=StatQuestwithJoshStarmer))
 
 ### Project Functionality - ELI5 Version:
 
