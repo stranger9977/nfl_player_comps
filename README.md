@@ -29,10 +29,11 @@ Link to project: [Player Comps Tool Powered by Next Gen Stats](https://nflplayer
 - [Explanation of KNN model](https://www.youtube.com/watch?v=HVXime0nQeI&ab_channel=StatQuestwithJoshStarmer)
 - [Explanation of Next Gen Stat Scores](https://www.youtube.com/watch?v=HVXime0nQeI&ab_channel=StatQuestwithJoshStarmer)
 
-### Project Functionality - ELI5 Version:
+### Project Functionality
 
-- The model gauges similarities based on the 4 Next Gen Stat Scores, draft positions, and other features, presenting a comparable veteran player for each rookie.
+- The model gauges similarities based on the 4 Next Gen Stat Scores and where the player was taken in the draft presenting a comparable veteran player for each rookie.
 - Displays rookies and their comparable veterans in an intuitive dashboard with player cards and a grouped bar chart showcasing the Next Gen Stat Scores.
+- Patterns Emerged where sometimes the top comparable players were all on the same team such as the Baltimore Raven receiving core. They seem to have a type! This happened for a few players and I think its fun to discover these instances. Check out Zay Flower's comp chart: 
 
 ![Bar Chart Example](https://github.com/stranger9977/nfl_player_comps/blob/master/data/raw/Screen%20Shot%202023-10-27%20at%2011.17.00%20AM.png)
 
