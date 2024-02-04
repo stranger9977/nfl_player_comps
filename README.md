@@ -27,7 +27,7 @@ Link to project: [Player Comps Tool Powered by Next Gen Stats](https://nflplayer
 
 - Trained a KNN model on Next Gen Stat Scores, leveraging the similarities in features to draw comparisons between rookies and veterans.
 - [Explanation of KNN model](https://www.youtube.com/watch?v=HVXime0nQeI&ab_channel=StatQuestwithJoshStarmer)
-- [Explanation of Next Gen Stat Scores]([https://www.youtube.com/watch?v=HVXime0nQeI&ab_channel=StatQuestwithJoshStarmer](https://aws.amazon.com/sports/nfl/next-gen-stats-draft-score-qa/)
+- [Explanation of Next Gen Stat Scores](https://aws.amazon.com/sports/nfl/next-gen-stats-draft-score-qa/)
 
 ### Project Functionality
 
