@@ -442,11 +442,10 @@ def knn_neighbors(df, player_name, n, pos, draft_number=None):
     output_df = output_df.merge(ranks_df, right_index=True, left_on='person_display_name', how='left')
     return output_df, features
 def main():
-    st.title("Combine Data Player Comps")
+    st.title("Machine Learning Player Comparison Tool Powered by NextGenStats")
 
     df = load_data()
     df = fix_player_data(df)
-
     years, positions = get_selection_options(df)
 
     selected_year = st.selectbox("Select a Year", years, index=11)
